@@ -42,46 +42,61 @@ class App extends React.Component {
                 </div>
                 <button>
                     <a className="left-side__link"href="">
-                        <img src="./images/left-side/circle-arrows.png" alt="" />
+                        <img src="./images/left-side/console.png" alt="" />
                         <span>Gaming</span>
+                        <img className="swipe-down" src="./images/left-side/swipe-down.png" alt="" />
                     </a>
                 </button>
                 <button>
                     <a className="left-side__link"href="">
                         <img src="./images/left-side/circle-arrows.png" alt="" />
                         <span>Sports</span>
+                        <img className="swipe-down" src="./images/left-side/swipe-down.png" alt="" />
                     </a>
                 </button>
                 <button>
                     <a className="left-side__link"href="">
                         <img src="./images/left-side/circle-arrows.png" alt="" />
                         <span>Buisness, Economics</span>
+                        <img className="swipe-down" src="./images/left-side/swipe-down.png" alt="" />
                     </a>
                 </button>
                 <button>
                     <a className="left-side__link"href="">
                         <img src="./images/left-side/circle-arrows.png" alt="" />
                         <span>Crypto</span>
+                        <img className="swipe-down" src="./images/left-side/swipe-down.png" alt="" />
                     </a>
                 </button>
                 <button>
                     <a className="left-side__link"href="">
                         <img src="./images/left-side/circle-arrows.png" alt="" />
                         <span>Television</span>
+                        <img className="swipe-down" src="./images/left-side/swipe-down.png" alt="" />
                     </a>
                 </button>
                 <button>
                     <a className="left-side__link"href="">
                         <img src="./images/left-side/circle-arrows.png" alt="" />
                         <span>Celebrity</span>
+                        <img className="swipe-down" src="./images/left-side/swipe-down.png" alt="" />
                     </a>
                 </button>
                 <button>
                     <a className="left-side__link"href="">
                         <img src="./images/left-side/circle-arrows.png" alt="" />
                         <span>More Topics</span>
+                        <img className="swipe-down" src="./images/left-side/swipe-down.png" alt="" />
                     </a>
                 </button>
+
+
+                <div className="left-side__join-to-us">
+                    <div className="left-side__join-to-us-text">
+                    <p> Create an account to follow your favorite communities and start taking part in conversations.</p>
+                    </div>
+                    <button className="left-side__join-to-us-button">Join Reddit</button>
+                </div>
             </div>
         </React.Fragment>
     )
